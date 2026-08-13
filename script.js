@@ -4,7 +4,7 @@ botoes.forEach(botao => {
      botao.addEventlistener('click', curtir)
 
 function curtir() {
-     let curtidas = document.queryselector('spam')
+     let curtidas = document.queryselector('span')
      curtidas.textcontent++
     }
 });
